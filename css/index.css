@@ -1,0 +1,473 @@
+:root {
+  --main-opacity-starting:0;
+}
+
+
+body {
+  background-color: rgb(0, 0, 0);
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin:0px;
+  font-size: 14px;
+  font-family: Impact;
+}
+
+.navbar-inverse {
+  background-color: rgba(0, 0, 0, 1);
+  font-size: 20px;
+  opacity:0.6;
+  -webkit-transition:opacity 2s;
+  transition:opacity 2s;
+}
+
+.navbar-inverse:hover {
+  background-color: rgba(0, 0, 0, 1);
+  font-size: 20px;
+  opacity:1;
+  -webkit-transition:opacity 2s;
+  transition:opacity 2s;
+}
+
+.navbar-nav>li {
+  border-left: solid black 2px;
+  font-family:'Indie Flower';
+}
+
+.container {
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 100%;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+
+.carousel-caption {
+  background: #1e1e1ee6;
+  color: white;
+  opacity: 0.8;
+  border-radius: 10px;
+}
+
+.panel {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-radius: 0px !important;
+  border: none !important;
+  padding:0px !important;
+}
+
+.panel-body {
+  padding: 0px;
+}
+
+iframe {
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+.row {
+  margin: 0px;
+}
+
+p {
+  text-indent: 20px;
+}
+
+#eidikes {
+  width: 100%;
+}
+
+#poioi {
+  background-color: #141212b3;
+  background-image: url("../img/coffee.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  color: rgb(172, 175, 182);
+  padding: 0px;
+  /*border-top:black solid 2px !important;*/
+  border-bottom:black solid 2px !important;
+  font-family: 'EB Garamond',serif !important;
+}
+
+#poioiOverlay{
+  opacity:var(--main-opacity-starting);
+  background-color:rgba(29, 17, 2, 0.72);
+  min-height:600px;
+}
+
+#poioi ul {
+  background-color: #14121299;
+  margin: 0px;
+}
+
+.whiteStrip{
+  background-color:rgb(217, 213, 209) !important;
+  color: rgb(45, 43, 44) !important;
+  padding: 0px;
+  /*border-top:black solid 2px !important;*/
+  border-bottom:black solid 2px !important;
+  font-family: 'EB Garamond',serif !important;
+}
+
+.blackStrip{
+  background-color:rgb(45, 43, 44) !important;
+  color: rgb(217, 213, 209) !important;
+  padding: 0px;
+  /*border-top:black solid 2px !important;*/
+  border-bottom:black solid 2px !important;
+  font-family: 'EB Garamond',serif !important;
+}
+
+#coffeeSection {
+
+}
+
+#coffeeOverlayBackground{
+  background-image: url("../img/coffeeSection.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+#coffeeSectionOverlay{
+  opacity:var(--main-opacity-starting);
+}
+
+#drinkSectionBackground{
+  background-image: url("../img/wine.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+#drinkSectionOverlay{
+  opacity:var(--main-opacity-starting);
+}
+
+#drinkSection{
+
+}
+
+#foodSectionBackground{
+  background-image: url("../img/food.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+#foodSectionOverlay{
+  opacity:var(--main-opacity-starting);
+}
+
+#foodSection{
+
+}
+
+#wineSectionBackground{
+  background-image: url("../img/wineBack1.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+#wineSectionOverlay{
+  opacity:var(--main-opacity-starting);
+}
+
+#wineSection{
+
+}
+
+#spacesSection{
+  background-image: url("../img/spaceWide.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  color: rgb(172, 175, 182) !important;
+  padding: 0px;
+  /*border-top:black solid 2px !important;*/
+  border-bottom:black solid 2px !important;
+  font-family: 'EB Garamond',serif !important;
+}
+
+.panel-title {
+  background-color: #0000;
+}
+
+.panel-body {
+  /*background-color: rgba(22, 13, 1, 0.87);*/
+}
+
+#epikinwnia {
+  background-color:rgba(0, 0, 0, 1) !important;
+  color: rgb(172, 175, 182) !important;
+  padding: 0px;
+  font-size: 20px;
+  margin:0px;
+}
+
+#topothesia {
+  background-color:rgba(0, 0, 0, 1) !important;
+  padding: 0px;
+  margin:0px;
+  /*border-top:black solid 2px !important;*/
+  border-bottom:black solid 2px !important;
+}
+
+.panel-heading {
+  color: #ebf0f2 !important;
+  font-weight: bold !important;
+  background-color: #291d28 !important;
+  border: none !important;
+  -webkit-transition:background-color 4s;
+  transition: background-color 4s;
+}
+
+.panel-heading:hover {
+  background-color: grey !important;
+  -webkit-transition:background-color 4s;
+  transition: background-color 4s;
+}
+
+
+
+#facebookIcon {
+  width: 10%;
+  height: auto;
+}
+
+p {
+  text-align: left;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+.hoverable {
+  padding:0px !important;
+  margin:0px;
+  -moz-transition: all 0.6s;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+
+/*.hoverable:hover {
+  moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}*/
+
+ul {
+  list-style-type: circle;
+}
+
+#back2Top {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Fixed/sticky position */
+  bottom: 20px;
+  /* Place the button at the bottom of the page */
+  right: 30px;
+  /* Place the button 30px from the right */
+  z-index: 99;
+  /* Make sure it does not overlap */
+  border: none;
+  /* Remove borders */
+  outline: none;
+  /* Remove outline */
+  color: white;
+  /* Text color */
+  cursor: pointer;
+  /* Add a mouse pointer on hover */
+  padding: 15px;
+  /* Some padding */
+  border-radius: 10px;
+  /* Rounded corners */
+  opacity:0.5;
+
+  transition:all 1s;
+}
+
+#back2Top:hover {
+  opacity:1;
+  transform: rotateY(180deg);
+  transition:all 1s;
+}
+
+
+
+#symbols {
+  text-align: center;
+}
+
+#footerMy {
+  /*background-image: url("../img/phone.jpg");*/
+  background-color: rgba(0, 0, 0, 1);
+  /*background-size: cover;
+  background-attachment: fixed;
+  background-position:center;*/
+  color: white;
+  padding: 0px;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+#footerText {
+  text-align: center !important;
+}
+
+@keyframes example {
+  0% {
+    color: #f2e5ff;
+  }
+  25% {
+    color: #d7afff;
+  }
+  50% {
+    color: #bd7cff
+  }
+  75% {
+    color: #d7afff;
+  }
+  100% {
+    color: #f2e5ff;
+  }
+}
+
+#rainbowText {
+  animation-name: example !important;
+  animation-duration: 2s !important;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example2 {
+  0% {
+    color: rgb(244, 10, 234);
+  }
+  25% {
+    color: rgb(179, 44, 186);
+  }
+  50% {
+    color: rgb(103, 50, 116);
+  }
+  75% {
+    color: rgb(179, 44, 186);
+  }
+  100% {
+    color: rgb(244, 10, 234);
+  }
+}
+
+#twentyfive{
+  font-weight:bold;
+  animation-name: example2 !important;
+  animation-duration: 2s !important;
+  animation-iteration-count: infinite;
+}
+
+.strikethrough{
+  color:rgba(129, 125, 122, 0.76);
+  text-decoration: line-through;
+}
+
+#extraEkptwsi{
+  background-image: url("../img/food.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  color: white;
+  padding: 0px;
+}
+
+ol{
+  list-style: decimal;
+}
+
+
+
+#topSenction{
+  background-color: #141212b3;
+  background-image: url("../img/spaces.jpg");
+  background-size: cover;
+  background-attachment: scroll;
+  background-position: center;
+  color: white;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /*border-top:black solid 2px !important;
+  border-bottom:black solid 2px !important;*/
+
+}
+
+@keyframes fadeInTop {
+  0% {
+    background-color:rgba(29, 17, 2, 1);
+  }
+  100% {
+    background-color:rgba(29, 17, 2, 0.42);
+  }
+}
+
+#topSenctionContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align:center;
+  background-color:rgba(29, 17, 2, 0.42);
+  padding:50px;
+  margin:auto;
+  min-height:700px;
+  font-family: 'Indie Flower';
+  animation-name: fadeInTop !important;
+  animation-duration: 10s !important;
+  animation-iteration-count: 1;
+}
+
+#spacesOverlay{
+  opacity:var(--main-opacity-starting);
+  background-color:rgba(29, 17, 2, 0.72);
+  min-height:600px;
+}
+
+div{
+  overflow: hidden;
+}
+
+#buttonCall{
+  display:none;
+  text-align:center;
+}
+
+#messageCall{
+  display:none;
+  text-align:center;
+}
+
+#messageCall2{
+  display:none;
+  text-align:center;
+}
+
+#carouselShell{
+  padding:0px !important;
+}
+
+/*#trans:hover{
+  transform: rotateY(180deg);
+}*/
