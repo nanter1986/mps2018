@@ -52,12 +52,12 @@ $(document).ready(function() {
     $(this).css('transform','rotateY(180deg)');
   });
 
-  var waypoint = createWaypoint('spacesOverlay',delay);
+  var waypoint = createWaypoint('airbnbOverlay',delay);
   var waypoint = createWaypoint('poioiOverlay',delay);
-  var waypoint = createWaypoint('coffeeSectionOverlay',delay);
-  var waypoint = createWaypoint('drinkSectionOverlay',delay);
-  var waypoint = createWaypoint('foodSectionOverlay',delay);
-  var waypoint = createWaypoint("wineSectionOverlay",delay);
+  var waypoint = createWaypoint('katharismoiSectionOverlay',delay);
+  var waypoint = createWaypoint('apolimanseisSectionOverlay',delay);
+  var waypoint = createWaypoint('kipoiSectionOverlay',delay);
+  var waypoint = createWaypoint("thermansiSectionOverlay",delay);
 
   function createWaypoint(id,timeInMillis){
     var waypoint = new Waypoint({
